@@ -31,6 +31,10 @@ input {
   min-width: 120px;
 }
 
+select,
+input{
+  margin-top: .4rem;
+}
 span[role="image"] {
   color: transparent;
   text-shadow: 0 0 0 black;
@@ -126,6 +130,7 @@ header button {
   justify-content: space-between;
   align-items: flex-end;
 }
+
 
 .NewItem button {
   background: var(--yellow);
